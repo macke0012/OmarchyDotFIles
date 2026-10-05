@@ -1,0 +1,33 @@
+2026-10-05 04:27:59.191 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-10-05 04:27:59.197 [info] [getSessions] [all] starting
+2026-10-05 04:27:59.197 [info] [getSessions] [all] returned 0 session(s)
+2026-10-05 04:27:59.197 [info] [getSessions] [all] starting
+2026-10-05 04:27:59.197 [info] [getSessions] [all] returned 0 session(s)
+2026-10-05 04:27:59.197 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] starting
+2026-10-05 04:27:59.197 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-10-05 04:27:59.201 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] returned 0 session(s)
+2026-10-05 04:27:59.201 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-10-05 04:27:59.201 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-10-05 04:27:59.201 [info] [getSessions] [all] starting
+2026-10-05 04:27:59.201 [info] [getSessions] [all] returned 0 session(s)
+2026-10-05 04:27:59.706 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] starting
+2026-10-05 04:27:59.706 [info] [getSessions] [499b84ac-1321-427f-aa17-267ca6975798/.default offline_access] returned 0 session(s)
+2026-10-05 04:28:00.472 [info] [getSessions] [all] starting
+2026-10-05 04:28:00.472 [info] [getSessions] [all] returned 0 session(s)
+2026-10-05 04:29:15.531 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] starting
+2026-10-05 04:29:15.531 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] returned 0 session(s)
+2026-10-05 04:29:15.536 [info] [getSessions] [all] starting
+2026-10-05 04:29:15.536 [info] [getSessions] [all] returned 0 session(s)
+2026-10-05 04:30:13.231 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] starting
+2026-10-05 04:30:13.231 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] returned 0 session(s)
+2026-10-05 04:30:13.235 [info] [getSessions] [all] starting
+2026-10-05 04:30:13.235 [info] [getSessions] [all] returned 0 session(s)
+2026-10-05 04:30:27.189 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] starting
+2026-10-05 04:30:27.189 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] returned 0 session(s)
+2026-10-05 04:30:27.190 [info] [getSessions] [all] starting
+2026-10-05 04:30:27.190 [info] [getSessions] [all] returned 0 session(s)
+2026-10-05 04:33:46.106 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] starting
+2026-10-05 04:33:46.107 [info] [getSessions] [46da2f7e-b5ef-422a-88d4-2a7f9de6a0b2/.default openid profile] returned 0 session(s)
+2026-10-05 04:33:46.115 [info] [getSessions] [all] starting
+2026-10-05 04:33:46.115 [info] [getSessions] [all] returned 0 session(s)
+2026-10-05 04:34:01.183 [info] Microsoft Authentication is deactivating...

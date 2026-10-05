@@ -1,0 +1,158 @@
+2026-10-05 04:27:24.661 [info] [main] Log level: Info
+2026-10-05 04:27:24.661 [info] [main] Validating found git in: "git"
+2026-10-05 04:27:24.661 [info] [main] Using git "2.56.0" from "git"
+2026-10-05 04:27:24.661 [info] [Model][doInitialScan] Initial repository scan started
+2026-10-05 04:27:24.661 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-05 04:27:24.661 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:24.661 [info] > git rev-parse --show-toplevel [28ms]
+2026-10-05 04:27:24.661 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:24.664 [info] > git rev-parse --show-toplevel [0ms]
+2026-10-05 04:27:24.664 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:24.666 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-10-05 04:27:24.683 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-05 04:27:24.683 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:36.323 [info] > git rev-parse --show-toplevel [7ms]
+2026-10-05 04:27:36.323 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:51.118 [info] > git rev-parse --show-toplevel [2ms]
+2026-10-05 04:27:51.119 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:51.166 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-05 04:27:51.166 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:51.182 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-05 04:27:51.182 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:51.243 [info] > git rev-parse --show-toplevel [0ms]
+2026-10-05 04:27:51.243 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:51.711 [info] > git rev-parse --show-toplevel [21ms]
+2026-10-05 04:27:51.711 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:51.723 [info] > git rev-parse --show-toplevel [4ms]
+2026-10-05 04:27:51.723 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:51.990 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-05 04:27:51.990 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:52.175 [info] > git rev-parse --show-toplevel [3ms]
+2026-10-05 04:27:52.175 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:52.476 [info] > git rev-parse --show-toplevel [0ms]
+2026-10-05 04:27:52.476 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:52.766 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-05 04:27:52.766 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:53.144 [info] > git rev-parse --show-toplevel [0ms]
+2026-10-05 04:27:53.144 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:27:57.078 [info] > git rev-parse --show-toplevel [1ms]
+2026-10-05 04:27:57.078 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2026-10-05 04:28:11.152 [info] > git rev-parse --show-toplevel [2ms]
+2026-10-05 04:28:11.169 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2026-10-05 04:28:11.219 [info] [Model][openRepository] Opened repository (path): /home/macke/.config/nvim
+2026-10-05 04:28:11.219 [info] [Model][openRepository] Opened repository (real path): /home/macke/.config/nvim
+2026-10-05 04:28:11.219 [info] [Model][openRepository] Opened repository (kind): repository
+2026-10-05 04:28:11.247 [info] > git config --get --local core.virtualfilesystem [15ms]
+2026-10-05 04:28:11.247 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-05 04:28:11.249 [info] > git config --get commit.template [3ms]
+2026-10-05 04:28:11.253 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:28:11.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-10-05 04:28:11.254 [warning] [Git][getBranch] No such branch: main
+2026-10-05 04:28:11.267 [info] > git status -z -uall [8ms]
+2026-10-05 04:28:11.267 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-10-05 04:28:11.284 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2026-10-05 04:28:11.284 [warning] [Git][getBranch] No such branch: main
+2026-10-05 04:28:11.284 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2026-10-05 04:28:11.288 [info] > git config --get commit.template [5ms]
+2026-10-05 04:28:11.292 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:28:11.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-10-05 04:28:11.295 [warning] [Git][getBranch] No such branch: main
+2026-10-05 04:28:11.301 [info] > git status -z -uall [3ms]
+2026-10-05 04:28:11.302 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-10-05 04:28:11.766 [info] > git check-ignore -v -z --stdin [7ms]
+2026-10-05 04:28:18.602 [info] > git config --get commit.template [5ms]
+2026-10-05 04:28:18.615 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:28:18.617 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-10-05 04:28:18.617 [warning] [Git][getBranch] No such branch: main
+2026-10-05 04:28:18.634 [info] > git status -z -uall [11ms]
+2026-10-05 04:28:18.634 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-10-05 04:28:25.868 [info] > git config --get commit.template [1ms]
+2026-10-05 04:28:25.878 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:28:25.879 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-10-05 04:28:25.879 [warning] [Git][getBranch] No such branch: main
+2026-10-05 04:28:25.898 [info] > git status -z -uall [10ms]
+2026-10-05 04:28:25.898 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-10-05 04:28:59.699 [info] > git config --get commit.template [1ms]
+2026-10-05 04:28:59.711 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:28:59.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-10-05 04:28:59.731 [info] > git status -z -uall [9ms]
+2026-10-05 04:28:59.732 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-10-05 04:29:00.782 [info] > git config --get commit.template [2ms]
+2026-10-05 04:29:00.794 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:29:00.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-10-05 04:29:00.819 [info] > git status -z -uall [12ms]
+2026-10-05 04:29:00.821 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-10-05 04:29:05.531 [info] > git config --get commit.template [1ms]
+2026-10-05 04:29:05.548 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:29:05.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-10-05 04:29:05.570 [info] > git status -z -uall [8ms]
+2026-10-05 04:29:05.571 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-10-05 04:29:13.482 [info] > git config --get commit.template [4ms]
+2026-10-05 04:29:13.494 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:29:13.497 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/agent refs/remotes/agent [3ms]
+2026-10-05 04:29:13.519 [info] > git status -z -uall [16ms]
+2026-10-05 04:29:13.522 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-10-05 04:29:13.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/agent refs/remotes/agent [3ms]
+2026-10-05 04:29:13.543 [info] > git config --get --local branch.agent.vscode-merge-base [1ms]
+2026-10-05 04:29:13.543 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-05 04:29:13.551 [info] > git reflog agent --grep-reflog=branch: Created from *. [2ms]
+2026-10-05 04:29:13.557 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2026-10-05 04:30:13.508 [info] > git config --get commit.template [2ms]
+2026-10-05 04:30:13.516 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:30:13.518 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/agent refs/remotes/agent [2ms]
+2026-10-05 04:30:13.529 [info] > git status -z -uall [6ms]
+2026-10-05 04:30:13.530 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-10-05 04:33:43.589 [info] > git config --get commit.template [3ms]
+2026-10-05 04:33:43.594 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:33:43.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/agent refs/remotes/agent [3ms]
+2026-10-05 04:33:43.605 [info] > git status -z -uall [5ms]
+2026-10-05 04:33:43.605 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-10-05 04:34:01.392 [info] > git config --get commit.template [1ms]
+2026-10-05 04:34:01.409 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:34:01.413 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/agent refs/remotes/agent [5ms]
+2026-10-05 04:34:01.433 [info] > git status -z -uall [10ms]
+2026-10-05 04:34:01.437 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-10-05 04:34:33.173 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [3ms]
+2026-10-05 04:34:39.265 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [1ms]
+2026-10-05 04:34:41.511 [info] > git checkout -q main [2ms]
+2026-10-05 04:34:41.523 [info] > git config --get commit.template [0ms]
+2026-10-05 04:34:41.530 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:34:41.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-10-05 04:34:41.545 [info] > git status -z -uall [6ms]
+2026-10-05 04:34:41.545 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-10-05 04:34:41.553 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-10-05 04:34:41.556 [info] > git config --get --local branch.main.vscode-merge-base [0ms]
+2026-10-05 04:34:41.556 [warning] [Git][config] git config failed: Failed to execute git
+2026-10-05 04:34:41.560 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
+2026-10-05 04:34:42.601 [info] > git config --get commit.template [1ms]
+2026-10-05 04:34:42.613 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:34:42.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-10-05 04:34:42.641 [info] > git status -z -uall [14ms]
+2026-10-05 04:34:42.641 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-10-05 04:34:52.874 [info] > git config --get commit.template [2ms]
+2026-10-05 04:34:52.881 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:34:52.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-10-05 04:34:52.901 [info] > git status -z -uall [8ms]
+2026-10-05 04:34:52.902 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-10-05 04:34:53.937 [info] > git config --get commit.template [2ms]
+2026-10-05 04:34:53.947 [info] [Git][getRemotes] No remotes found in the git config file
+2026-10-05 04:34:53.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-10-05 04:34:53.971 [info] > git status -z -uall [13ms]
+2026-10-05 04:34:53.972 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]

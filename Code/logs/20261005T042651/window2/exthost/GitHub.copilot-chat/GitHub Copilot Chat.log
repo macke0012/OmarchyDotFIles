@@ -1,0 +1,78 @@
+2026-10-05 04:27:58.860 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-10-05 04:27:58.860 [info] FetcherService: Experimentation service not available yet, using default fetcher configuration.
+2026-10-05 04:27:58.860 [info] Using the Electron fetcher.
+2026-10-05 04:27:58.860 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-10-05 04:27:58.860 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-10-05 04:27:58.860 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-10-05 04:27:58.935 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-10-05 04:27:58.936 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-05 04:27:58.936 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-10-05 04:27:58.936 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-10-05 04:27:58.936 [info] BYOK: fetching known models list
+2026-10-05 04:27:58.936 [info] activationBlocker from 'languageModelAccess' took for 28ms
+2026-10-05 04:27:59.094 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-05 04:27:59.099 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-10-05 04:27:59.112 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-05 04:27:59.113 [info] [CopilotCLIChatSessionContentProvider] listSessions took 19.562105999999858ms
+2026-10-05 04:27:59.115 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-10-05 04:27:59.119 [info] [CopilotCLI] MCP server started. Lock file: /home/macke/.copilot/ide/88f88768-b9d5-4d5c-8438-41ff014f742d.lock
+2026-10-05 04:27:59.119 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-Z3ToaX/mcp.sock#%2Fmcp
+2026-10-05 04:27:59.152 [info] ConversationFeature: BYOK models available
+2026-10-05 04:27:59.152 [info] ConversationFeature: Activating contributions
+2026-10-05 04:27:59.152 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-10-05 04:27:59.160 [warning] Unable to fetch remote agents because user is not signed in.
+2026-10-05 04:27:59.160 [info] activationBlocker from 'conversationFeature' took for 257ms
+2026-10-05 04:27:59.185 [info] Logged in as macke0012
+2026-10-05 04:27:59.192 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.192923999999948ms
+2026-10-05 04:27:59.429 [error] Error: command '_workbench.whenAccountPolicySettled' not found
+    at Jkt._tryExecuteCommand (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1069:4832)
+    at Jkt.executeCommand (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/sessions/sessions.desktop.main.js:1069:4732): [OTel] Failed to check for stale telemetry configuration
+2026-10-05 04:27:59.430 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.749418999999989ms
+2026-10-05 04:27:59.577 [info] Got Copilot token for macke0012
+2026-10-05 04:27:59.577 [info] Copilot Chat: 0.68.0, VS Code: 1.140.0
+2026-10-05 04:27:59.624 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:59.624 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:59.624 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:59.624 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:59.624 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:59.624 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:59.624 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:59.624 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:59.624 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:59.626 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-10-05 04:27:59.627 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-10-05 04:27:59.627 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:59.628 [info] Registering default platform agent...
+2026-10-05 04:27:59.629 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-10-05 04:27:59.630 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-10-05 04:27:59.631 [error] Failed to create database. Falling back to in-memory db: Error: unable to open database file
+2026-10-05 04:27:59.750 [info] Fetched model metadata in 835ms c704d9cc-4b33-4500-a61c-03ffc070b210
+2026-10-05 04:27:59.752 [info] Latest entry: ccreq:latest.copilotmd
+2026-10-05 04:27:59.752 [info] ccreq:0f1e35be.copilotmd | markdown
+2026-10-05 04:30:13.515 [info] message 0 returned. finish reason: [stop]
+2026-10-05 04:30:13.517 [info] request done: requestId: [96f42028-105e-43be-8363-98ce1eca9639] model deployment ID: []
+2026-10-05 04:30:13.518 [info] ccreq:a3c854b8.copilotmd | success | gpt-4o-mini-2024-07-18 | 707ms | [copilotLanguageModelWrapper]
+2026-10-05 04:30:16.665 [info] message 0 returned. finish reason: [stop]
+2026-10-05 04:30:16.676 [info] request done: requestId: [c89bfae7-265a-4899-98a5-f11fb7df20b5] model deployment ID: []
+2026-10-05 04:30:16.679 [info] ccreq:f402f826.copilotmd | success | gpt-4o-mini-2024-07-18 | 411ms | [copilotLanguageModelWrapper]
+2026-10-05 04:30:20.680 [info] message 0 returned. finish reason: [stop]
+2026-10-05 04:30:20.681 [info] request done: requestId: [ba2c441b-8f42-4212-bb74-7ed06569a79c] model deployment ID: []
+2026-10-05 04:30:20.681 [info] ccreq:8e3b1b1c.copilotmd | success | gpt-4o-mini-2024-07-18 | 357ms | [copilotLanguageModelWrapper]
+2026-10-05 04:30:31.562 [info] message 0 returned. finish reason: [stop]
+2026-10-05 04:30:31.563 [info] request done: requestId: [073cc3f0-cf0d-419a-9efd-7a3917456706] model deployment ID: []
+2026-10-05 04:30:31.563 [info] ccreq:5e845425.copilotmd | success | gpt-4o-mini-2024-07-18 | 464ms | [copilotLanguageModelWrapper]
+2026-10-05 04:30:37.185 [info] message 0 returned. finish reason: [stop]
+2026-10-05 04:30:37.192 [info] request done: requestId: [12adee5e-b40a-426b-9bc0-2b2334a1cd0b] model deployment ID: []
+2026-10-05 04:30:37.195 [info] ccreq:d6ed9559.copilotmd | success | gpt-4o-mini-2024-07-18 | 364ms | [copilotLanguageModelWrapper]
+2026-10-05 04:30:41.245 [info] message 0 returned. finish reason: [stop]
+2026-10-05 04:30:41.248 [info] request done: requestId: [0b0e39bb-438f-47db-a3ba-47dc25a1940d] model deployment ID: []
+2026-10-05 04:30:41.251 [info] ccreq:355e3622.copilotmd | success | gpt-4o-mini-2024-07-18 | 497ms | [copilotLanguageModelWrapper]
+2026-10-05 04:30:46.653 [info] message 0 returned. finish reason: [stop]
+2026-10-05 04:30:46.656 [info] request done: requestId: [bf7efb1c-21ef-4113-aa6f-e172a50de3a1] model deployment ID: []
+2026-10-05 04:30:46.657 [info] ccreq:31c1f8d0.copilotmd | success | gpt-4o-mini-2024-07-18 | 462ms | [copilotLanguageModelWrapper]
+2026-10-05 04:31:00.723 [info] message 0 returned. finish reason: [stop]
+2026-10-05 04:31:00.724 [info] request done: requestId: [67703f48-919d-4e91-8ce8-6d74eb9dd9d1] model deployment ID: []
+2026-10-05 04:31:00.725 [info] ccreq:1f82e047.copilotmd | success | gpt-4o-mini-2024-07-18 | 539ms | [copilotLanguageModelWrapper]
+2026-10-05 04:31:22.644 [info] message 0 returned. finish reason: [stop]
+2026-10-05 04:31:22.645 [info] request done: requestId: [eb820b41-3c1a-4487-a128-2e3be4070779] model deployment ID: []
+2026-10-05 04:31:22.645 [info] ccreq:64ef6cb0.copilotmd | success | gpt-4o-mini-2024-07-18 | 492ms | [copilotLanguageModelWrapper]

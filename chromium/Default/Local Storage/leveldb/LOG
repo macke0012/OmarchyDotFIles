@@ -1,0 +1,8 @@
+2026/10/05-03:58:35.309 5 Creating DB /home/macke/.config/chromium/Default/Local Storage/leveldb since it was missing.
+2026/10/05-03:58:35.312 5 Reusing MANIFEST /home/macke/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2026/10/05-03:59:35.315 7 Level-0 table #5: started
+2026/10/05-03:59:35.326 7 Level-0 table #5: 81364 bytes OK
+2026/10/05-03:59:35.328 7 Delete type=0 #3
+2026/10/05-04:00:46.917 7 Level-0 table #7: started
+2026/10/05-04:00:46.925 7 Level-0 table #7: 52704 bytes OK
+2026/10/05-04:00:46.928 7 Delete type=0 #4

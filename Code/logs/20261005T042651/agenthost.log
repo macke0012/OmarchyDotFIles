@@ -1,0 +1,291 @@
+2026-10-05 04:26:51.971 [info] Agent Host process started successfully
+2026-10-05 04:26:51.980 [info] AgentService initialized
+2026-10-05 04:26:51.985 [info] Registering agent provider: copilotcli
+2026-10-05 04:26:51.987 [info] Registering agent provider: claude
+2026-10-05 04:26:51.988 [info] Registering agent provider: codex
+2026-10-05 04:26:51.989 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-05 04:26:52.006 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-10-05 04:26:52.023 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-497b1652b269/hBYtqydnutHrd-oPm73Y5g.sock
+2026-10-05 04:26:52.025 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-05 04:26:52.026 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-10-05 04:26:52.027 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 41ms (0 db opens, 0 db stats)
+2026-10-05 04:26:52.027 [info] [Copilot] Listing discoverable chats...
+2026-10-05 04:26:52.028 [info] [Copilot] Starting CopilotClient...
+2026-10-05 04:26:52.028 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-05 04:26:52.030 [info] [Copilot] Using bundled runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-arm64/prebuilds/linux-arm64/copilot-runtime
+2026-10-05 04:26:52.037 [info] [node-compile-cache] agent-host: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/agent-host, active: none)
+2026-10-05 04:26:52.057 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-05 04:26:52.062 [info] [Copilot] CopilotClient started successfully
+2026-10-05 04:26:52.063 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-10-05 04:26:52.064 [info] [Copilot] Chat discovery: 0 SDK session(s) -> 0 external, 0 adoptable legacy extension-host, 0 suppressed adoptable legacy extension-host, 0 suppressed archived legacy extension-host, 0 already known to Agent Host, 0 without a working directory, 0 with unsupported or missing client name, 0 outside the import window, 0 failed to classify (adopt legacy extension-host chats: false)
+2026-10-05 04:26:52.091 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-05 04:26:52.103 [info] [ProtocolServer] Initialize: clientId=a6931f7f-1a21-4fe1-b52e-c3c169bec4bc, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-05 04:26:52.499 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-10-05 04:26:52.500 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-10-05 04:27:49.183 [info] [Copilot] Auth token updated
+2026-10-05 04:27:49.230 [info] [ClaudeProxyService] listening on http://127.0.0.1:40825
+2026-10-05 04:27:49.230 [info] [Claude] Auth token updated
+2026-10-05 04:27:50.852 [info] [Codex] Auth token updated
+2026-10-05 04:27:50.854 [info] [Copilot] Listing models...
+2026-10-05 04:27:51.368 [info] [Copilot] Startup config changed (hydraFusion=false), restarting CopilotClient
+2026-10-05 04:27:51.368 [info] [Copilot] Restarting CopilotClient (startup config changed: hydraFusion=false)
+2026-10-05 04:27:51.371 [warning] [Copilot] Failed to refresh models (attempt 1), retrying in 973ms Pending response rejected since connection got disposed
+2026-10-05 04:27:52.214 [info] [Copilot] Listing models...
+2026-10-05 04:27:52.214 [info] [Copilot] Starting CopilotClient...
+2026-10-05 04:27:52.219 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-05 04:27:52.279 [info] [Copilot] Using bundled runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-arm64/prebuilds/linux-arm64/copilot-runtime
+2026-10-05 04:27:52.312 [info] [Copilot] CopilotClient started successfully
+2026-10-05 04:27:52.496 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-10-05 04:27:52.920 [info] [Copilot] Found 0 models: 
+2026-10-05 04:27:57.972 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-05 04:27:57.989 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-05 04:27:57.989 [info] [ProtocolServer] Initialize: clientId=5398185b-34e5-489b-9383-1f90eb6e1c6f, protocolVersions=[0.9.0, 0.7.0, 0.6.0, 0.5.2, 0.5.1]
+2026-10-05 04:27:57.994 [info] [Copilot] Startup config changed (skillCharBudget=15000), restarting CopilotClient
+2026-10-05 04:27:57.994 [info] [Copilot] Restarting CopilotClient (startup config changed: skillCharBudget=15000)
+2026-10-05 04:27:58.270 [info] [Copilot] Listing models...
+2026-10-05 04:27:58.270 [info] [Copilot] Starting CopilotClient...
+2026-10-05 04:27:58.270 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-05 04:27:58.304 [info] [Copilot] Using bundled runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-arm64/prebuilds/linux-arm64/copilot-runtime
+2026-10-05 04:27:58.339 [info] [Copilot] CopilotClient started successfully
+2026-10-05 04:27:58.563 [info] [Copilot] Startup config changed (hydraFusion=true), restarting CopilotClient
+2026-10-05 04:27:58.564 [info] [Copilot] Restarting CopilotClient (startup config changed: hydraFusion=true)
+2026-10-05 04:27:58.567 [warning] [Copilot] Failed to refresh models (attempt 1), retrying in 510ms Pending response rejected since connection got disposed
+2026-10-05 04:27:58.567 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-05 04:27:58.569 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-05 04:27:58.934 [info] [Copilot] Listing models...
+2026-10-05 04:27:58.934 [info] [Copilot] Starting CopilotClient...
+2026-10-05 04:27:58.940 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-05 04:27:58.951 [info] [Copilot] Using bundled runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-arm64/prebuilds/linux-arm64/copilot-runtime
+2026-10-05 04:27:58.982 [info] [Copilot] CopilotClient started successfully
+2026-10-05 04:27:58.991 [info] [Copilot] Startup config changed (hydraFusion=false), restarting CopilotClient
+2026-10-05 04:27:58.991 [info] [Copilot] Restarting CopilotClient (startup config changed: hydraFusion=false)
+2026-10-05 04:27:58.994 [warning] [Copilot] Failed to refresh models (attempt 1), retrying in 720ms Pending response rejected since connection got disposed
+2026-10-05 04:27:59.069 [info] [Claude] Auth token unchanged
+2026-10-05 04:27:59.070 [info] [Codex] Auth token updated
+2026-10-05 04:27:59.224 [warning] [agentHostGitService] > git symbolic-ref --quiet refs/remotes/origin/HEAD failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.224 [warning] [agentHostGitService] > git branch --show-current failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.229 [warning] [agentHostGitService] > git for-each-ref --format=%(refname)%00%(upstream) --sort -committerdate refs/heads failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.229 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.236 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.238 [info] [Copilot] Creating chat ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh with a deferred backing... model=hydrafusion
+2026-10-05 04:27:59.238 [warning] [agentHostGitService] > git rev-parse --short HEAD failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.239 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-05 04:27:59.239 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-05 04:27:59.350 [info] [TerminalManager] Creating terminal agenthost-terminal:/7092d1be-47ff-47d0-b1c2-a79aca18620c: shell=/usr/bin/bash, cwd=/home/macke/.config/nvim, cols=80, rows=30
+2026-10-05 04:27:59.352 [info] [TerminalManager] Shell integration injected for agenthost-terminal:/7092d1be-47ff-47d0-b1c2-a79aca18620c
+2026-10-05 04:27:59.564 [info] [Copilot] Starting CopilotClient...
+2026-10-05 04:27:59.566 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-10-05 04:27:59.574 [info] [Copilot] Listing models...
+2026-10-05 04:27:59.575 [info] [Copilot] Using bundled runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-arm64/prebuilds/linux-arm64/copilot-runtime
+2026-10-05 04:27:59.609 [info] [Copilot] CopilotClient started successfully
+2026-10-05 04:27:59.610 [info] [Copilot] Active client 5398185b-34e5-489b-9383-1f90eb6e1c6f now contributes to chat ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh
+2026-10-05 04:27:59.614 [info] [AgentPluginManager] Syncing plugin: vscode-synced-customization:/agent-host-copilotcli--11237369 → file:///home/macke/.config/Code/agentPlugins/vscode-synced-customization-agent-host-copilotcli-11237369/1819622649
+2026-10-05 04:27:59.648 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.648 [info] [Copilot] Chat created; its backing stays deferred until the first send: copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a
+2026-10-05 04:27:59.681 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.688 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.691 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.705 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:27:59.708 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:28:00.174 [info] [Copilot] Found 0 models: 
+2026-10-05 04:28:04.696 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:28:04.711 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:28:04.728 [warning] [agentHostGitService] > git rev-parse --show-toplevel failed; full stderr:
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+2026-10-05 04:29:59.505 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-10-05 04:29:59.596 [info] [AgentHostTurnTiming] {"schemaVersion":1,"sessionId":"copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a","chatId":"ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh","turnId":"request_bd2b95b4-a3ca-4052-af74-f19714f9efa6","provider":"copilotcli","hostRootTurnOrdinal":1,"hostProcessAgeMs":187779}
+2026-10-05 04:29:59.597 [info] [Copilot] Listing models...
+2026-10-05 04:29:59.604 [info] [Copilot] Found 0 models: 
+2026-10-05 04:29:59.604 [info] [AgentHostTurnTiming] {"schemaVersion":1,"sessionId":"copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a","chatId":"ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh","turnId":"request_bd2b95b4-a3ca-4052-af74-f19714f9efa6","provider":"copilotcli","hostRootTurnOrdinal":1,"hostProcessAgeMs":187779,"titleGenerationStrategy":"deferred"}
+2026-10-05 04:29:59.632 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Preparing SDK session: kind=create, configuration=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh
+2026-10-05 04:29:59.633 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Resolved system message: mode=customize sections=[identity:replace, tool_instructions:append] +content(length 1178)
+2026-10-05 04:29:59.989 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Applied SDK sandboxConfig via session.options.update
+2026-10-05 04:29:59.990 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] SDK session attached: instanceId=18094511-19d7-4be2-9baf-c19d2702d95e, disconnectRpc=notStarted, shutdownReceived=false, disposed=false, lifetimeMs=0
+2026-10-05 04:30:00.006 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] MCP server 'github-mcp-server' pending (starting) {"mcpEvent":"statusChanged","mcpServer":"github-mcp-server","mcpStatus":"pending","mcpState":"starting"}
+2026-10-05 04:30:00.046 [info] [Copilot] Session materialized: copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a
+2026-10-05 04:30:00.055 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] sendMessage called: "Please add support for c# development and make sure it works" (0 attachments)
+2026-10-05 04:30:00.085 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] session.mode_changed: interactive -> autopilot
+2026-10-05 04:30:00.088 [info] [AgentHostPullRequestOperationContribution] Advertised operations changed: session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, primary=none, operations=[none]
+2026-10-05 04:30:00.090 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] rpc.mode.set succeeded: mode=autopilot
+2026-10-05 04:30:00.090 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Syncing permission mode: source=turn-start, agentMode=autopilot, configuredLevel=autoApprove, sdkMode=allow-all, previousSdkMode=unknown, globalAutoApprove=false
+2026-10-05 04:30:00.098 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Applied SDK sandboxConfig via session.options.update
+2026-10-05 04:30:00.102 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] session.send() returned
+2026-10-05 04:30:00.421 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] MCP server 'github-mcp-server' connected (ready) {"mcpEvent":"statusChanged","mcpServer":"github-mcp-server","mcpStatus":"connected","mcpState":"ready"}
+2026-10-05 04:30:00.984 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Auto mode resolved to gpt-6-luna
+2026-10-05 04:30:06.070 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 119 chars
+2026-10-05 04:30:06.074 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:06.080 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:06.140 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_WbzIHEJlIhnlUenBRqUeRjQq
+2026-10-05 04:30:06.142 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_WbzIHEJlIhnlUenBRqUeRjQq, success=true
+2026-10-05 04:30:06.149 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_XwarfjG9yUdVRELMIsQSbP0h
+2026-10-05 04:30:06.150 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_XwarfjG9yUdVRELMIsQSbP0h, success=true
+2026-10-05 04:30:09.161 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:30:09.166 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: view
+2026-10-05 04:30:09.176 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: view
+2026-10-05 04:30:09.180 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: view
+2026-10-05 04:30:09.185 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: view
+2026-10-05 04:30:09.187 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: view
+2026-10-05 04:30:09.187 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:09.229 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_hREGmalStl8nSnFyE9LIPPyj
+2026-10-05 04:30:09.230 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_hREGmalStl8nSnFyE9LIPPyj, success=true
+2026-10-05 04:30:09.242 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_CR90g0LDcuMR00oXa376T5dl
+2026-10-05 04:30:09.243 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_CR90g0LDcuMR00oXa376T5dl, success=true
+2026-10-05 04:30:09.251 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_EuZkwtDuVtJhkc5VoUG8d2Lw
+2026-10-05 04:30:09.251 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_EuZkwtDuVtJhkc5VoUG8d2Lw, success=true
+2026-10-05 04:30:09.265 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_7bS3KUphn7cQMMUSC46dcfbo
+2026-10-05 04:30:09.266 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_7bS3KUphn7cQMMUSC46dcfbo, success=true
+2026-10-05 04:30:09.283 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_5D1cdbcgcsDnkDHgJMhCBMjG
+2026-10-05 04:30:09.284 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_5D1cdbcgcsDnkDHgJMhCBMjG, success=true
+2026-10-05 04:30:09.293 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_7RL3KXjl347pDyxIhr1Fhj8b
+2026-10-05 04:30:09.294 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_7RL3KXjl347pDyxIhr1Fhj8b, success=true
+2026-10-05 04:30:14.162 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 130 chars
+2026-10-05 04:30:14.169 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:14.172 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:14.173 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:14.246 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_vzAwhe2ABl3Mvq2K1JV6PVXy
+2026-10-05 04:30:14.247 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_vzAwhe2ABl3Mvq2K1JV6PVXy, success=true
+2026-10-05 04:30:14.251 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_zW0f4FHXi6IwRSgu8JQnM4w8
+2026-10-05 04:30:14.252 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_zW0f4FHXi6IwRSgu8JQnM4w8, success=true
+2026-10-05 04:30:14.256 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_VVfEGyNGl9UB9vdj84UN3TS7
+2026-10-05 04:30:14.257 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_VVfEGyNGl9UB9vdj84UN3TS7, success=true
+2026-10-05 04:30:17.987 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:30:17.993 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:17.996 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: view
+2026-10-05 04:30:18.001 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: view
+2026-10-05 04:30:18.003 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:18.169 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_GvfmWmqiT2OxQ82MciuRrM05
+2026-10-05 04:30:18.169 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_GvfmWmqiT2OxQ82MciuRrM05, success=true
+2026-10-05 04:30:18.173 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_a1eZenrdTRrxKzxP0pGOZEgK
+2026-10-05 04:30:18.173 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_a1eZenrdTRrxKzxP0pGOZEgK, success=true
+2026-10-05 04:30:18.177 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_sZeR99YuIDqWPOg1CPyq5ldA
+2026-10-05 04:30:18.178 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_sZeR99YuIDqWPOg1CPyq5ldA, success=true
+2026-10-05 04:30:18.183 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_5aZ2qwch4CpAjIret7BkHZ2M
+2026-10-05 04:30:18.184 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_5aZ2qwch4CpAjIret7BkHZ2M, success=true
+2026-10-05 04:30:22.043 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:30:22.052 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: view
+2026-10-05 04:30:22.057 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:22.059 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:22.118 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_7cI6Pp1jY6uerUFx7OBkH1li
+2026-10-05 04:30:22.119 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_7cI6Pp1jY6uerUFx7OBkH1li, success=true
+2026-10-05 04:30:22.125 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_HEDuD0qd4swoRxYVtM5ezOgJ
+2026-10-05 04:30:22.130 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_HEDuD0qd4swoRxYVtM5ezOgJ, success=true
+2026-10-05 04:30:22.141 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_7dnXWWbJtxV1fpYcjvIYhDD0
+2026-10-05 04:30:22.142 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_7dnXWWbJtxV1fpYcjvIYhDD0, success=true
+2026-10-05 04:30:28.508 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:30:28.510 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:28.511 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:28.539 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_HveWgSG9DrIPmJk4aJPjwZLx
+2026-10-05 04:30:28.540 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_HveWgSG9DrIPmJk4aJPjwZLx, success=true
+2026-10-05 04:30:28.548 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_aT5oCy431nJJ1OQ8BnTQCFZR
+2026-10-05 04:30:28.557 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_aT5oCy431nJJ1OQ8BnTQCFZR, success=true
+2026-10-05 04:30:32.904 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 171 chars
+2026-10-05 04:30:32.913 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: apply_patch
+2026-10-05 04:30:32.931 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: custom_call_5J30Qi8tQe4dzgvu3x739AjC
+2026-10-05 04:30:33.047 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=custom_call_5J30Qi8tQe4dzgvu3x739AjC, success=true
+2026-10-05 04:30:40.834 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:30:40.839 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:40.841 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:42.159 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_73oXmL0owSfm4ULMJu8QgqM2
+2026-10-05 04:30:42.162 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_73oXmL0owSfm4ULMJu8QgqM2, success=true
+2026-10-05 04:30:42.176 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_ieUuVVGrzizhd9OiNpWtZAHs
+2026-10-05 04:30:42.193 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_ieUuVVGrzizhd9OiNpWtZAHs, success=true
+2026-10-05 04:30:47.528 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 211 chars
+2026-10-05 04:30:47.535 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:47.540 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:47.581 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_vjlLxiiqy4y3DvAJauHdtyNY
+2026-10-05 04:30:47.582 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_vjlLxiiqy4y3DvAJauHdtyNY, success=true
+2026-10-05 04:30:47.593 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_wusnGCkAjFfl0KfbL5KCrxwx
+2026-10-05 04:30:47.598 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_wusnGCkAjFfl0KfbL5KCrxwx, success=true
+2026-10-05 04:30:53.742 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:30:53.748 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:53.749 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:53.750 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:30:53.806 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_7iNRxWiFUroZTuyuHfL10BWF
+2026-10-05 04:30:53.807 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_7iNRxWiFUroZTuyuHfL10BWF, success=true
+2026-10-05 04:30:53.813 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_cLq6GPYlrobCDlFf7aKb2iKi
+2026-10-05 04:30:53.817 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_gq8AIHNumPgRR6h01ZV1sJA0
+2026-10-05 04:30:53.818 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_gq8AIHNumPgRR6h01ZV1sJA0, success=true
+2026-10-05 04:30:53.819 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_cLq6GPYlrobCDlFf7aKb2iKi, success=true
+2026-10-05 04:31:01.993 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:31:01.997 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:31:01.998 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:31:02.059 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_b2tEJLaPpJ6LJibdOjmbWNoj
+2026-10-05 04:31:02.063 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_b2tEJLaPpJ6LJibdOjmbWNoj, success=true
+2026-10-05 04:31:02.063 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_zWrbyQUyeezaQTwsU5DCmrA6
+2026-10-05 04:31:02.063 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_zWrbyQUyeezaQTwsU5DCmrA6, success=true
+2026-10-05 04:31:06.871 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:31:06.876 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:31:06.878 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:31:06.940 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_XR6gQpGrwVv5lVbJYtW42DfD
+2026-10-05 04:31:06.940 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_XR6gQpGrwVv5lVbJYtW42DfD, success=true
+2026-10-05 04:31:06.943 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_y46KJczKm7mr8qOvwuO9ZF7a
+2026-10-05 04:31:06.943 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_y46KJczKm7mr8qOvwuO9ZF7a, success=true
+2026-10-05 04:31:11.080 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:31:11.084 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: view
+2026-10-05 04:31:11.103 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool completed: call_zhbXCZ0r6WUzD2LlD6JwuVxn
+2026-10-05 04:31:11.103 [info] [AgentSideEffects] Forwarding client tool completion: source=server-envelope, session=copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, completionChat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, toolCallId=call_zhbXCZ0r6WUzD2LlD6JwuVxn, success=true
+2026-10-05 04:31:30.812 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:31:30.814 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:31:30.818 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 0 chars
+2026-10-05 04:31:30.827 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Full message received: 179 chars
+2026-10-05 04:31:30.827 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Tool started: bash
+2026-10-05 04:33:55.886 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Aborting session...
+2026-10-05 04:33:55.970 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] Session idle
+2026-10-05 04:34:01.392 [info] [ProtocolServer] Client disconnected: 5398185b-34e5-489b-9383-1f90eb6e1c6f, subscriptions=7
+2026-10-05 04:34:01.393 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-05 04:34:31.397 [info] [Copilot:f7a18a39-7d82-43d0-a534-4f6d31629f3a] removeActiveClient: clientId=5398185b-34e5-489b-9383-1f90eb6e1c6f, chat=ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh, fullyRemoved=true
+2026-10-05 04:34:57.440 [info] [ProtocolServer] Client disconnected: a6931f7f-1a21-4fe1-b52e-c3c169bec4bc, subscriptions=1
+2026-10-05 04:34:57.442 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-05 04:34:57.446 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-10-05 04:34:57.451 [info] AgentService: shutting down all providers...
+2026-10-05 04:34:57.451 [info] [Copilot] Shutting down...
+2026-10-05 04:34:57.457 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] SDK session disconnect RPC started: instanceId=18094511-19d7-4be2-9baf-c19d2702d95e, disconnectRpc=pending, shutdownReceived=false, disposed=false, lifetimeMs=297467
+2026-10-05 04:34:57.517 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] SDK session shutdown received (routine): instanceId=18094511-19d7-4be2-9baf-c19d2702d95e, disconnectRpc=pending, shutdownReceived=true, disposed=false, lifetimeMs=297527
+2026-10-05 04:34:57.517 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] SDK session disconnect wait completed: instanceId=18094511-19d7-4be2-9baf-c19d2702d95e, disconnectRpc=pending, shutdownReceived=true, disposed=false, lifetimeMs=297527
+2026-10-05 04:34:57.517 [info] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] SDK session disconnect skipped after shutdown: instanceId=18094511-19d7-4be2-9baf-c19d2702d95e, disconnectRpc=pending, shutdownReceived=true, disposed=true, lifetimeMs=297527
+2026-10-05 04:34:57.521 [warning] [Copilot:a3398f55-a081-4a70-a0c8-6880418cc98f] SDK session disconnect RPC failed: instanceId=18094511-19d7-4be2-9baf-c19d2702d95e, disconnectRpc=failed, shutdownReceived=true, disposed=true, lifetimeMs=297531 Pending response rejected since connection got disposed
+2026-10-05 04:34:57.675 [warning] [Copilot:SessionDiscoveredEntry] Discovery/bundle failed: Canceled

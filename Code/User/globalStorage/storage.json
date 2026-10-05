@@ -1,0 +1,167 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "e17159fd997fd452628ef46bd1b6ce06c8f8c4f9132c61130ceeb34ac3a089d2",
+    "telemetry.devDeviceId": "2c94fe17-b580-4b8d-803d-4d4fee1d53b6",
+    "backupWorkspaces": {
+        "workspaces": [
+            {
+                "id": "04ab5c71db4a79125ab6fed42d228c26",
+                "configURIPath": "file:///home/macke/.config/Code/User/agent-sessions.code-workspace"
+            }
+        ],
+        "folders": [
+            {
+                "folderUri": "file:///home/macke/.config/nvim"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/macke/.config/nvim": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1a1b26",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#787c99",
+            "background": "#1a1b26",
+            "editorBackground": "#1a1b26",
+            "titleBarBackground": "#16161e",
+            "titleBarInactiveBackground": "#16161e",
+            "titleBarBorder": "#101014",
+            "activityBarBackground": "#16161e",
+            "activityBarBorder": "#16161e",
+            "modernActivityBarBackground": "#16161e",
+            "modernActivityBarInactiveBackground": "#16161e",
+            "modernActivityBarBorder": "#242530",
+            "modernPanelBorder": "#242530",
+            "modernUIShellBackground": "#16161e",
+            "modernUIInactiveShellBackground": "#16161e",
+            "sideBarBackground": "#16161e",
+            "sideBarBorder": "#101014",
+            "panelBackground": "#16161e",
+            "editorGroupBorder": "#101014",
+            "editorBorder": "#242530",
+            "surfaceBackground": "#16161e",
+            "surfaceBorder": "#242530",
+            "agentsPanelBackground": "#16161e",
+            "agentsPanelBorder": "rgba(120, 124, 153, 0.15)",
+            "statusBarBackground": "#16161e",
+            "statusBarBorder": "#101014",
+            "statusBarNoFolderBackground": "#16161e",
+            "windowBorder": "#0d0f17"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "statusBarHeight": 28,
+            "windowBorder": false,
+            "modernUI": true,
+            "modernUICompact": false,
+            "partBounds": {
+                "activityBar": {
+                    "top": 35,
+                    "left": 4,
+                    "width": 44,
+                    "height": 873,
+                    "outerEdges": {
+                        "left": true,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "sideBar": {
+                    "top": 35,
+                    "left": 48,
+                    "width": 170,
+                    "height": 873,
+                    "outerEdges": {
+                        "left": false,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "auxiliaryBar": {
+                    "top": 35,
+                    "left": 576,
+                    "width": 162,
+                    "height": 873,
+                    "outerEdges": {
+                        "left": false,
+                        "right": true,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "panel": {
+                    "top": 603,
+                    "left": 222,
+                    "width": 350,
+                    "height": 305,
+                    "outerEdges": {
+                        "left": false,
+                        "right": false,
+                        "top": false,
+                        "bottom": true
+                    }
+                },
+                "editor": {
+                    "top": 35,
+                    "left": 222,
+                    "width": 350,
+                    "height": 564,
+                    "outerEdges": {
+                        "left": false,
+                        "right": false,
+                        "top": true,
+                        "bottom": false
+                    }
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/macke/.config/nvim",
+            "backupPath": "/home/macke/.config/Code/Backups/fe8b7be989c1e6f476a40aa95c396d06",
+            "uiState": {
+                "mode": 0,
+                "x": 150,
+                "y": 91,
+                "width": 1212,
+                "height": 822
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "0a48ce1321087723d267fe9ae469a348": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    },
+    "userDataProfiles": [
+        {
+            "location": "builtin/agents",
+            "name": "Agents"
+        }
+    ]
+}

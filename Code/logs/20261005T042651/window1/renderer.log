@@ -1,0 +1,310 @@
+2026-10-05 04:26:51.774 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-05 04:26:51.786 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-05 04:26:51.886 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:26:52.056 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-05 04:26:52.085 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:26:52.096 [info] Started local extension host with pid 40166.
+2026-10-05 04:26:52.106 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): agentSessionsWorkspace
+agentsWindowConfiguration
+chatDebug
+chatHooks
+envIsConnectionMetered
+extensionsAny
+newSymbolNamesProvider
+interactive
+codeActionAI
+activeComment
+commentReveal
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+documentFiltersExclusive
+embeddings
+findTextInFiles
+findTextInFiles2
+languageModelToolSupportsModel
+findFiles2
+textSearchProvider
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+chatParticipantAdditions
+defaultChatParticipant
+contribSourceControlInputBoxMenu
+authLearnMore
+authIssuers
+testObserver
+aiTextSearchProvider
+chatParticipantPrivate
+chatProvider
+contribDebugCreateConfiguration
+chatReferenceDiagnostic
+textSearchProvider2
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelPricing
+inlineCompletionsAdditions
+chatStatusItem
+chatInputNotification
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+languageModelThinkingPart
+chatSessionsProvider
+devDeviceId
+contribEditorContentMenu
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+environmentPower
+terminalTitle
+toolInvocationApproveCombination
+chatSessionCustomizationProvider
+product.json (WINS): agentSessionsWorkspace
+agentsWindowConfiguration
+interactive
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+chatParticipantAdditions
+defaultChatParticipant
+embeddings
+chatProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+codeActionAI
+findTextInFiles
+findTextInFiles2
+textSearchProvider
+textSearchProvider2
+activeComment
+commentReveal
+contribSourceControlInputBoxMenu
+contribCommentEditorActionsMenu
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+extensionAffinity
+newSymbolNamesProvider
+findFiles2
+chatReferenceDiagnostic
+extensionsAny
+authLearnMore
+testObserver
+aiTextSearchProvider
+documentFiltersExclusive
+chatParticipantPrivate
+contribDebugCreateConfiguration
+inlineCompletionsAdditions
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelThinkingPart
+languageModelToolSupportsModel
+chatStatusItem
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+chatSessionsProvider
+chatSessionCustomizationProvider
+devDeviceId
+contribEditorContentMenu
+tokenInformation
+toolInvocationApproveCombination
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+chatHooks
+chatDebug
+envIsConnectionMetered
+environmentPower
+terminalTitle
+languageModelPricing
+chatInputNotification
+DELTA: authIssuers
+2026-10-05 04:26:52.153 [info] [AgentHost:renderer] Protocol connection established; clientId=a6931f7f-1a21-4fe1-b52e-c3c169bec4bc
+2026-10-05 04:26:52.334 [info] [RemoteAgentHostProtocol] Mirroring configuration to host root config from DEFAULT: byokModelsEnabled=true (chat.agentHost.byokModels.enabled), codexAgentEnabled=true (chat.agentHost.codexAgent.enabled), skillCharBudget=30000 (chat.copilot.skillCharBudget)
+2026-10-05 04:26:52.470 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-05 04:26:52.520 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-05 04:26:52.524 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-05 04:26:52.524 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-05 04:26:52.529 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-05 04:26:52.540 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-05 04:26:52.541 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-05 04:26:52.562 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-05 04:26:52.563 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:26:52.626 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:26:52.640 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:26:52.649 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-05 04:26:52.741 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:26:54.659 [info] [perf] Render performance baseline is 17ms
+2026-10-05 04:26:57.476 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-05 04:27:24.615 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-05 04:27:24.657 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-05 04:27:24.672 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-05 04:27:24.680 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-05 04:27:24.687 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-05 04:27:24.688 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-05 04:27:26.755 [error] [Extension Host] (node:40166) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-05 04:27:50.857 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-10-05 04:27:50.861 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-10-05 04:27:51.009 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): agentSessionsWorkspace
+agentsWindowConfiguration
+chatDebug
+chatHooks
+envIsConnectionMetered
+extensionsAny
+newSymbolNamesProvider
+interactive
+codeActionAI
+activeComment
+commentReveal
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+documentFiltersExclusive
+embeddings
+findTextInFiles
+findTextInFiles2
+languageModelToolSupportsModel
+findFiles2
+textSearchProvider
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+chatParticipantAdditions
+defaultChatParticipant
+contribSourceControlInputBoxMenu
+authLearnMore
+authIssuers
+testObserver
+aiTextSearchProvider
+chatParticipantPrivate
+chatProvider
+contribDebugCreateConfiguration
+chatReferenceDiagnostic
+textSearchProvider2
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelPricing
+inlineCompletionsAdditions
+chatStatusItem
+chatInputNotification
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+languageModelThinkingPart
+chatSessionsProvider
+devDeviceId
+contribEditorContentMenu
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+environmentPower
+terminalTitle
+toolInvocationApproveCombination
+chatSessionCustomizationProvider
+product.json (WINS): agentSessionsWorkspace
+agentsWindowConfiguration
+interactive
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+chatParticipantAdditions
+defaultChatParticipant
+embeddings
+chatProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+codeActionAI
+findTextInFiles
+findTextInFiles2
+textSearchProvider
+textSearchProvider2
+activeComment
+commentReveal
+contribSourceControlInputBoxMenu
+contribCommentEditorActionsMenu
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+extensionAffinity
+newSymbolNamesProvider
+findFiles2
+chatReferenceDiagnostic
+extensionsAny
+authLearnMore
+testObserver
+aiTextSearchProvider
+documentFiltersExclusive
+chatParticipantPrivate
+contribDebugCreateConfiguration
+inlineCompletionsAdditions
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelThinkingPart
+languageModelToolSupportsModel
+chatStatusItem
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+chatSessionsProvider
+chatSessionCustomizationProvider
+devDeviceId
+contribEditorContentMenu
+tokenInformation
+toolInvocationApproveCombination
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+chatHooks
+chatDebug
+envIsConnectionMetered
+environmentPower
+terminalTitle
+languageModelPricing
+chatInputNotification
+DELTA: authIssuers
+2026-10-05 04:27:51.123 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:27:51.172 [info] [RemoteAgentHostProtocol] Mirroring configuration to host root config from DEFAULT: sessionSyncEnabled=false (chat.sessionSync.enabled)
+2026-10-05 04:27:51.244 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:27:51.455 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:27:52.088 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:27:52.249 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:27:52.579 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-10-05 04:27:53.298 [info] [ChatModelSelection] event=select-default surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/ZTFiZTRiMWYtOTFkMy00YjYyLWJlYTAtYmM1MzFjMWQ3NWE0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined defaultModel="copilot/auto" currentModel=undefined
+2026-10-05 04:34:57.291 [warning] [Chat] Could not verify the Agent Host account for Auto startup defaults

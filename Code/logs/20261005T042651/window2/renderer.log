@@ -1,0 +1,198 @@
+2026-10-05 04:27:57.794 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-05 04:27:57.808 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-05 04:27:57.864 [warning] No harness descriptor found for session type file
+2026-10-05 04:27:57.954 [info] [AgentsHandoff] IPC received: folderUri=file:///home/macke/.config/nvim sessionResource=(none)
+2026-10-05 04:27:57.971 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-05 04:27:57.975 [info] [sessions welcome] Setup already completed in default profile, marking done locally
+2026-10-05 04:27:57.993 [info] [AgentHost:renderer] Protocol connection established; clientId=5398185b-34e5-489b-9383-1f90eb6e1c6f
+2026-10-05 04:27:57.994 [info] Started local extension host with pid 41252.
+2026-10-05 04:27:58.015 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): agentSessionsWorkspace
+agentsWindowConfiguration
+chatDebug
+chatHooks
+envIsConnectionMetered
+extensionsAny
+newSymbolNamesProvider
+interactive
+codeActionAI
+activeComment
+commentReveal
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+documentFiltersExclusive
+embeddings
+findTextInFiles
+findTextInFiles2
+languageModelToolSupportsModel
+findFiles2
+textSearchProvider
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+chatParticipantAdditions
+defaultChatParticipant
+contribSourceControlInputBoxMenu
+authLearnMore
+authIssuers
+testObserver
+aiTextSearchProvider
+chatParticipantPrivate
+chatProvider
+contribDebugCreateConfiguration
+chatReferenceDiagnostic
+textSearchProvider2
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelPricing
+inlineCompletionsAdditions
+chatStatusItem
+chatInputNotification
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+languageModelThinkingPart
+chatSessionsProvider
+devDeviceId
+contribEditorContentMenu
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+environmentPower
+terminalTitle
+toolInvocationApproveCombination
+chatSessionCustomizationProvider
+product.json (WINS): agentSessionsWorkspace
+agentsWindowConfiguration
+interactive
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+chatParticipantAdditions
+defaultChatParticipant
+embeddings
+chatProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+codeActionAI
+findTextInFiles
+findTextInFiles2
+textSearchProvider
+textSearchProvider2
+activeComment
+commentReveal
+contribSourceControlInputBoxMenu
+contribCommentEditorActionsMenu
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+extensionAffinity
+newSymbolNamesProvider
+findFiles2
+chatReferenceDiagnostic
+extensionsAny
+authLearnMore
+testObserver
+aiTextSearchProvider
+documentFiltersExclusive
+chatParticipantPrivate
+contribDebugCreateConfiguration
+inlineCompletionsAdditions
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelThinkingPart
+languageModelToolSupportsModel
+chatStatusItem
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+chatSessionsProvider
+chatSessionCustomizationProvider
+devDeviceId
+contribEditorContentMenu
+tokenInformation
+toolInvocationApproveCombination
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+chatHooks
+chatDebug
+envIsConnectionMetered
+environmentPower
+terminalTitle
+languageModelPricing
+chatInputNotification
+DELTA: authIssuers
+2026-10-05 04:27:58.185 [info] [RemoteAgentHostProtocol] Mirroring configuration to host root config from DEFAULT: byokModelsEnabled=true (chat.agentHost.byokModels.enabled), codexAgentEnabled=true (chat.agentHost.codexAgent.enabled), skillCharBudget=30000 (chat.copilot.skillCharBudget)
+2026-10-05 04:27:58.510 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-05 04:27:58.532 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-05 04:27:58.532 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-05 04:27:58.533 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-05 04:27:58.624 [info] [ChatModelSelection] event=initialize surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/0a8532c5-8515-4abb-a63b-2b1082cab948" conversationKey="agent-host-copilotcli:/0a8532c5-8515-4abb-a63b-2b1082cab948" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/0a8532c5-8515-4abb-a63b-2b1082cab948" configuredModel="" rememberedModel=undefined availableModels="agent-host-copilotcli:hydrafusion" selection="apply" resultModel="agent-host-copilotcli:hydrafusion" resultReason="firstAvailable" pendingReference=undefined
+2026-10-05 04:27:58.624 [info] [ChatModelSelection] event=provider-automatic-selection-applied surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/0a8532c5-8515-4abb-a63b-2b1082cab948" conversationKey="agent-host-copilotcli:/0a8532c5-8515-4abb-a63b-2b1082cab948" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/0a8532c5-8515-4abb-a63b-2b1082cab948" model="agent-host-copilotcli:hydrafusion" reason="firstAvailable" providerModelBefore=undefined providerModelAfter="agent-host-copilotcli:hydrafusion"
+2026-10-05 04:27:58.653 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-05 04:27:58.656 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-05 04:27:58.883 [info] [ChatModelSelection] event=initialize surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" configuredModel="" rememberedModel=undefined availableModels="agent-host-copilotcli:hydrafusion" selection="apply" resultModel="agent-host-copilotcli:hydrafusion" resultReason="firstAvailable" pendingReference=undefined
+2026-10-05 04:27:58.884 [info] [ChatModelSelection] event=provider-automatic-selection-applied surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" model="agent-host-copilotcli:hydrafusion" reason="firstAvailable" providerModelBefore=undefined providerModelAfter="agent-host-copilotcli:hydrafusion"
+2026-10-05 04:27:59.024 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="models" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:27:59.074 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-10-05 04:27:59.097 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="models" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:27:59.114 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="models" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:27:59.120 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="models" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:27:59.120 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-10-05 04:27:59.126 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="models" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:27:59.202 [warning] [TunnelAgentHost] Discovery failed for trigger 'startup'; preserving 0 cached tunnel(s): No authentication is available to enumerate tunnels.
+2026-10-05 04:27:59.561 [error] [Extension Host] (node:41252) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-05 04:27:59.710 [info] [ChangesetOperationsActionController] Primary pull request operation: none
+2026-10-05 04:27:59.712 [info] [AgentMergeActions] Session state: session=local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, chat=agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, enabled=false, authorizedActions=[addressReviews, fixCI, resolveConflicts], mergePullRequest=never
+2026-10-05 04:27:59.916 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="models" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:27:59.920 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="models" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:27:59.954 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="models" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:28:00.954 [info] [perf] Render performance baseline is 18ms
+2026-10-05 04:29:15.539 [warning] [TunnelAgentHost] Discovery failed for trigger 'rediscover'; preserving 0 cached tunnel(s): No authentication is available to enumerate tunnels.
+2026-10-05 04:29:23.320 [error] InvalidStateError: lock() request could not be registered.
+2026-10-05 04:29:59.374 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="sessionState" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:29:59.400 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="quick" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-10-05 04:29:59.503 [info] [ChatModelSelection] event=compatibility-check surface="workbench" sessionKey="agent-host-copilotcli" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" widgetViewKind="quick" currentModel="copilot/auto" sessionType="agent-host-copilotcli" willReset=true
+2026-10-05 04:29:59.560 [info] [AgentHost] _invokeAgent called for resource: agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a
+2026-10-05 04:29:59.585 [info] [AgentHost] Interactive authentication succeeded for https://api.github.com
+2026-10-05 04:30:00.075 [info] [ChatModelSelection] event=await-desired-model surface="sessions" sessionKey="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" providerId="local-agent-host" sessionType="copilotcli" sessionId="local-agent-host:agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" trigger="sessionState" desiredModel="agent-host-copilotcli:hydrafusion" availableModels=""
+2026-10-05 04:30:00.092 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="quick" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-10-05 04:30:00.131 [info] [ChatModelSelection] event=compatibility-check surface="workbench" sessionKey="agent-host-copilotcli" conversationKey="agent-host-copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a" modelTarget="agent-host-copilotcli" storageKey="chat.currentLanguageModel.panel.agent-host-copilotcli" widgetViewKind="quick" currentModel="copilot/auto" sessionType="agent-host-copilotcli" willReset=true
+2026-10-05 04:30:00.166 [warning] [AgentHost] Dropping foreign model identifier 'copilot/auto' for session type 'agent-host-copilotcli'; falling back to default model.
+2026-10-05 04:30:13.241 [warning] [TunnelAgentHost] Discovery failed for trigger 'rediscover'; preserving 0 cached tunnel(s): No authentication is available to enumerate tunnels.
+2026-10-05 04:30:27.207 [warning] [TunnelAgentHost] Discovery failed for trigger 'rediscover'; preserving 0 cached tunnel(s): No authentication is available to enumerate tunnels.
+2026-10-05 04:30:27.743 [error] InvalidStateError: lock() request could not be registered.
+2026-10-05 04:33:46.116 [warning] [TunnelAgentHost] Discovery failed for trigger 'rediscover'; preserving 0 cached tunnel(s): No authentication is available to enumerate tunnels.
+2026-10-05 04:33:53.646 [error] InvalidStateError: lock() request could not be registered.
+2026-10-05 04:33:55.835 [info] [AgentHost] Cancellation requested for copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a, dispatching turnCancelled
+2026-10-05 04:33:55.873 [info] [AgentHostFirstResponse] {"schemaVersion":1,"requestId":"request_bd2b95b4-a3ca-4052-af74-f19714f9efa6","provider":"copilotcli","agentSessionId":"copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a","chatId":"ahp-chat://default/Y29waWxvdGNsaTovZjdhMThhMzktN2Q4Mi00M2QwLWE1MzQtNGY2ZDMxNjI5ZjNh","sessionTurnKind":"first","invocationKind":"newTurn","outcome":"cancelled","rendererRootInvocationOrdinal":1,"trustInteractionRequired":false,"firstResponseTextMs":6108.600000000093,"rootToolCallsBeforeFirstText":0,"totalElapsedMs":236315.8999999999,"hasResponseText":true,"abexp.assignmentcontext":{"value":"vsliv368cf:30146710;binariesv615:30325510;nativeloc1:31344060;dwcopilot:31170013;dwoutputs:31242946;copilot_t_ci:31333650;e5gg6876:31282496;pythonrdcb7:31342333;6518g693:31463988;aj953862:31281341;b6b4d950:31327385;envsactivate1:31551504;gh487529:31544284;cloudbuttont:31379625;3efgi100_wstrepl:31403338;56b7f661:31457055;ec5jj548:31422691;cp_cls_t_966_ss:31526232;4je02754:31466945;8hhj4413:31478653;cp_cls_c_1081:31454833;conptydll_true:31498968;e9c30283:31461165;46204921:31447328;capico_axe_098a3278:31590238;ei9d7968:31496641;chat:31457767;8hig5102:31480529;89g7j272:31518289;i2gc6536:31499202;52612955:31516516;ddid_c:31478207;hmra_i5g22:31518061;l_j1ci3728:31592441;7df3h592:31512476;cp_cls_t_1082:31535311;logging_enabled_new:31498466;db5d2638:31499441;jb_cp_cls_t_632:31543129;748c7209:31512887;32d76977:31512328;ha629193:31508444;a1ije391_t:31540920;jbcp_cls_pctr_t:31531130;cp_intellij_t_nes:31548657;ahp-both-windows:31556933;ihg5j128:31534457;9gg7f176:31542112;sandbox-ui-on-2:31543161;nes-ex-cf-euporie-03:31542868;enable_editor_pane_layout:31569726;allow-none:31555437;ac562147:31564510;1h923230:31564177;treatment-23-1:31555779;unuse_dynamic_mcp:31555281;0d8dfbc3:31570291;0c1h4866:31566224;session-mark-done:31591648;plus-and-new:31594157;multi-root:31593626;5b8j3302:31564601;autotiers:31584978;mangle-name-treatment:31572634;allow-signed-out:31592042;80db41fc-e686-49f5-b9db-830fbb843f14:31589249;intellij_nes_preview_t:31580086;39a5d156:31574986;0ec91c74:31585910;outline:31581109;unified-workspace-picker:31594567;c-links:31587699;aw-autom-on:31583758;usage_tips_endabled_0911:31587631;7g328426_fixed:31593558;codex-agent-host-stable-editor:31593046;skill-budget-30000:31593151;aw-folder-default-4b9dc90c:31587687;66c8a39e-e7a5-4b4c-a3c0-41b161c795c4:31586113;sessioninlinediffenabled_disabled:31587634;625b466e-cb2b-4d7d-9636-1c6b4c849b7f:31593926;welcomesignin9359c:31590009;d86536fd-1dfa-49e0-bc7a-b1780444eb56:31593049;b169b0b1-b17e-475c-9032-91b9b24dde97:31589214;d6a5dc66-a24d-4215-bf31-317b28ac768a:31589212;656655c6-7461-40d8-8d90-d4e7392d6fa1:31589209;chat-sel-multi:31593933;873a6c30-1450-474f-862d-8084643bbc8e:31593167;c4jch183:31592431;edbgf432:31592435;66b79c21-4c9f-4438-9466-73e142d0789c:31592345;aw-confetti-c-d87cc328:31592350;onb-aw-v2-workspace-and-model-0f8f09a8:31593332;permission_prompt_treatment:1332566;ccr_pr_nudge_adoption:1319471;vsc_wsm_t:1340632;ce50c479:1417073;cfee5631:1379228;c_920dh436:1401463;jc553158:1433349;chat-subagents-default-to-auto-treatment:1436478;cmc_aa_t:1435711;","isTrustedTelemetryValue":true},"capi.assignmentcontext":{"value":"5133j383:1109202;permission_prompt_treatment:1332566;ccr_pr_nudge_adoption:1319471;jc553158:1433349;cmc_aa_t:1435711;","isTrustedTelemetryValue":true},"sessionId":"copilotcli:/f7a18a39-7d82-43d0-a534-4f6d31629f3a","turnId":"request_bd2b95b4-a3ca-4052-af74-f19714f9efa6"}
+2026-10-05 04:33:56.528 [warning] [AgentHost] Dropping foreign model identifier 'copilot/auto' for session type 'agent-host-copilotcli'; falling back to default model.
+2026-10-05 04:34:01.191 [warning] [Chat] Could not verify the Agent Host account for Auto startup defaults
+2026-10-05 04:34:01.205 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-10-05 04:34:01.205 [warning] [Chat] Could not verify the Agent Host account for Auto startup defaults
+2026-10-05 04:34:01.205 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-10-05 04:34:01.205 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-10-05 04:34:01.205 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-10-05 04:34:01.205 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com; deferring authentication
+2026-10-05 04:34:01.205 [info] [AgentHost] Authentication provider is not ready for resource: https://api.github.com/repos; deferring authentication
+2026-10-05 04:34:01.283 [warning] No harness descriptor found for session type agent-host-copilotcli
+2026-10-05 04:34:01.283 [warning] [AgentHost] Dropping foreign model identifier 'copilot/auto' for session type 'agent-host-copilotcli'; falling back to default model.

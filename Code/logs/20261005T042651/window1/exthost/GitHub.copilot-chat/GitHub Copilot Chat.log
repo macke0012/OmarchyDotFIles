@@ -1,0 +1,56 @@
+2026-10-05 04:27:51.724 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-10-05 04:27:51.724 [info] FetcherService: Experimentation service not available yet, using default fetcher configuration.
+2026-10-05 04:27:51.724 [info] Using the Electron fetcher.
+2026-10-05 04:27:51.724 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-10-05 04:27:51.724 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-10-05 04:27:51.724 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-10-05 04:27:51.738 [info] Logged in as macke0012
+2026-10-05 04:27:51.847 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-10-05 04:27:51.963 [info] [CopilotCLI] OpenTelemetry enabled: exporter=file, source=github.copilot
+2026-10-05 04:27:51.969 [info] [CopilotCLIChatSessionContentProvider] listSessions took 6.679105999995954ms
+2026-10-05 04:27:51.970 [info] [CopilotCLI] MCP server started. Lock file: /home/macke/.copilot/ide/d58f8955-d949-4a15-a429-ca35df1268aa.lock
+2026-10-05 04:27:51.970 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-weHu9b/mcp.sock#%2Fmcp
+2026-10-05 04:27:52.289 [info] Got Copilot token for macke0012
+2026-10-05 04:27:52.289 [info] Copilot Chat: 0.68.0, VS Code: 1.140.0
+2026-10-05 04:27:52.358 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:52.358 [info] ConversationFeature: Activating contributions
+2026-10-05 04:27:52.358 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-10-05 04:27:52.366 [info] Registering default platform agent...
+2026-10-05 04:27:52.368 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:52.368 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:52.368 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:52.368 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:52.369 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:52.369 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:52.369 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:52.369 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:52.369 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:52.369 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:52.369 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:52.369 [info] [code-referencing] Public code references are enabled.
+2026-10-05 04:27:52.369 [info] activationBlocker from 'conversationFeature' took for 554ms
+2026-10-05 04:27:52.369 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-10-05 04:27:52.369 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:27:52.371 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-10-05 04:27:52.371 [info] BYOK: fetching known models list
+2026-10-05 04:27:52.371 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-10-05 04:27:52.394 [info] activationBlocker from 'languageModelAccess' took for 576ms
+2026-10-05 04:27:52.407 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-10-05 04:27:52.408 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-10-05 04:27:52.410 [error] Failed to create database. Falling back to in-memory db: Error: unable to open database file
+2026-10-05 04:27:52.414 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.0258370000010473ms
+2026-10-05 04:27:52.431 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-10-05 04:27:52.436 [info] [CopilotCLIChatSessionContentProvider] listSessions took 0.6643360000016401ms
+2026-10-05 04:27:52.848 [info] Fetched model metadata in 1025ms 654de0f9-dd72-4669-93d3-d023dc4bbc03
+2026-10-05 04:27:53.057 [info] Latest entry: ccreq:latest.copilotmd
+2026-10-05 04:27:53.058 [info] ccreq:302a0ad7.copilotmd | markdown
+2026-10-05 04:27:53.327 [info] ConversationFeature: BYOK models available
+2026-10-05 04:27:53.327 [info] copilot token sku: free_limited_copilot
+2026-10-05 04:28:00.294 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.9793849999987287ms
+2026-10-05 04:30:14.033 [info] [CopilotCLIChatSessionContentProvider] listSessions took 12.112120999983745ms
+2026-10-05 04:33:44.107 [info] [CopilotCLIChatSessionContentProvider] listSessions took 5.553293999982998ms
+2026-10-05 04:34:01.907 [info] [CopilotCLIChatSessionContentProvider] listSessions took 6.3990800000028685ms
+2026-10-05 04:34:20.815 [info] [CopilotCLIChatSessionContentProvider] listSessions took 2.7463410000200383ms
+2026-10-05 04:34:23.442 [info] [CopilotCLIChatSessionContentProvider] listSessions took 4.128199000027962ms
+2026-10-05 04:34:30.871 [info] [CopilotCLIChatSessionContentProvider] listSessions took 1.7293960000388324ms
+2026-10-05 04:34:56.133 [info] [CopilotCLIChatSessionContentProvider] listSessions took 7.4455029999953695ms

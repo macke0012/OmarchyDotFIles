@@ -1,0 +1,633 @@
+2026-10-05 04:27:58.509 [info] 
+2026-10-05 04:27:58.509 [info] === Customizations Snapshot ===
+2026-10-05 04:27:58.510 [info]   Root: (none)
+2026-10-05 04:27:58.510 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:27:58.510 [info] 
+2026-10-05 04:27:58.510 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:27:58.510 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:27:58.529 [info]   agents                0      0      0       0
+2026-10-05 04:27:58.652 [info]   skills                0      4     10      14
+2026-10-05 04:27:58.654 [info]   instructions          0      0      0       0
+2026-10-05 04:27:58.654 [info]   hooks                 0      0      0       0
+2026-10-05 04:27:58.655 [info] 
+2026-10-05 04:27:58.655 [info]   -- agents --
+2026-10-05 04:27:58.655 [info]      Search paths:
+2026-10-05 04:27:58.655 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:27:58.655 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:27:58.655 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:27:58.655 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:27:58.655 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:27:58.660 [info] 
+2026-10-05 04:27:58.660 [info]   -- skills --
+2026-10-05 04:27:58.660 [info]      Search paths:
+2026-10-05 04:27:58.660 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:27:58.660 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:27:58.660 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:27:58.660 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:27:58.660 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:27:58.660 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:27:58.691 [info]      Found 14 item(s):
+2026-10-05 04:27:58.691 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:27:58.691 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:27:58.691 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:27:58.691 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:27:58.691 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:27:58.691 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:27:58.692 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:27:58.692 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:27:58.692 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:27:58.692 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:27:58.692 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:27:58.692 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:27:58.692 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:27:58.692 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:27:58.692 [info] 
+2026-10-05 04:27:58.692 [info]   -- instructions --
+2026-10-05 04:27:58.693 [info]      Search paths:
+2026-10-05 04:27:58.693 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:27:58.693 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:27:58.693 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:27:58.693 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:27:58.693 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:27:58.701 [info] 
+2026-10-05 04:27:58.701 [info]   -- hooks --
+2026-10-05 04:27:58.701 [info]      Search paths:
+2026-10-05 04:27:58.701 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:27:58.702 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:27:58.706 [info] 
+2026-10-05 04:27:58.706 [info]   -- MCP Servers (0) --
+2026-10-05 04:27:58.706 [info]      (none registered)
+2026-10-05 04:27:58.706 [info] 
+2026-10-05 04:27:58.707 [info] 
+2026-10-05 04:27:58.707 [info] === Customizations Snapshot ===
+2026-10-05 04:27:58.707 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:27:58.707 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:27:58.707 [info] 
+2026-10-05 04:27:58.707 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:27:58.707 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:27:58.725 [info]   agents                0      0      0       0
+2026-10-05 04:27:58.734 [info]   skills                0      4     10      14
+2026-10-05 04:27:58.735 [info]   instructions          0      0      0       0
+2026-10-05 04:27:58.736 [info]   hooks                 0      0      0       0
+2026-10-05 04:27:58.736 [info] 
+2026-10-05 04:27:58.736 [info]   -- agents --
+2026-10-05 04:27:58.736 [info]      Search paths:
+2026-10-05 04:27:58.736 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:27:58.736 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:27:58.736 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:27:58.736 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:27:58.736 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:27:58.737 [info] 
+2026-10-05 04:27:58.737 [info]   -- skills --
+2026-10-05 04:27:58.737 [info]      Search paths:
+2026-10-05 04:27:58.737 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:27:58.737 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:27:58.737 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:27:58.737 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:27:58.737 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:27:58.737 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:27:58.740 [info]      Found 14 item(s):
+2026-10-05 04:27:58.740 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:27:58.740 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:27:58.740 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:27:58.740 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:27:58.740 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:27:58.740 [info] 
+2026-10-05 04:27:58.740 [info]   -- instructions --
+2026-10-05 04:27:58.740 [info]      Search paths:
+2026-10-05 04:27:58.740 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:27:58.741 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:27:58.741 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:27:58.741 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:27:58.741 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:27:58.744 [info] 
+2026-10-05 04:27:58.744 [info]   -- hooks --
+2026-10-05 04:27:58.744 [info]      Search paths:
+2026-10-05 04:27:58.744 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:27:58.744 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:27:58.744 [info] 
+2026-10-05 04:27:58.744 [info]   -- MCP Servers (0) --
+2026-10-05 04:27:58.744 [info]      (none registered)
+2026-10-05 04:27:58.744 [info] 
+2026-10-05 04:27:58.881 [info] 
+2026-10-05 04:27:58.881 [info] === Customizations Snapshot ===
+2026-10-05 04:27:58.882 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:27:58.882 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:27:58.882 [info] 
+2026-10-05 04:27:58.882 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:27:58.883 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:27:58.941 [info]   agents                0      0      0       0
+2026-10-05 04:27:58.956 [info]   skills                0      4     11      15
+2026-10-05 04:27:58.959 [info]   instructions          0      0      0       0
+2026-10-05 04:27:58.959 [info]   hooks                 0      0      0       0
+2026-10-05 04:27:58.959 [info] 
+2026-10-05 04:27:58.959 [info]   -- agents --
+2026-10-05 04:27:58.959 [info]      Search paths:
+2026-10-05 04:27:58.959 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:27:58.959 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:27:58.959 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:27:58.959 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:27:58.959 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:27:58.961 [info] 
+2026-10-05 04:27:58.962 [info]   -- skills --
+2026-10-05 04:27:58.962 [info]      Search paths:
+2026-10-05 04:27:58.962 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:27:58.962 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:27:58.962 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:27:58.962 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:27:58.962 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:27:58.962 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:27:58.965 [info]      Found 15 item(s):
+2026-10-05 04:27:58.965 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:27:58.965 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:27:58.965 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:27:58.965 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:27:58.965 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/chronicle/SKILL.md
+2026-10-05 04:27:58.965 [info] 
+2026-10-05 04:27:58.965 [info]   -- instructions --
+2026-10-05 04:27:58.965 [info]      Search paths:
+2026-10-05 04:27:58.965 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:27:58.965 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:27:58.965 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:27:58.966 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:27:58.966 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:27:58.968 [info] 
+2026-10-05 04:27:58.968 [info]   -- hooks --
+2026-10-05 04:27:58.968 [info]      Search paths:
+2026-10-05 04:27:58.968 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:27:58.968 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:27:59.018 [info] 
+2026-10-05 04:27:59.018 [info]   -- MCP Servers (0) --
+2026-10-05 04:27:59.018 [info]      (none registered)
+2026-10-05 04:27:59.018 [info] 
+2026-10-05 04:27:59.018 [info] 
+2026-10-05 04:27:59.018 [info] === Customizations Snapshot ===
+2026-10-05 04:27:59.018 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:27:59.018 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:27:59.018 [info] 
+2026-10-05 04:27:59.018 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:27:59.018 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:27:59.065 [info]   agents                0      0      0       0
+2026-10-05 04:27:59.099 [info]   skills                0      4     11      15
+2026-10-05 04:27:59.103 [info]   instructions          0      0      0       0
+2026-10-05 04:27:59.103 [info]   hooks                 0      0      0       0
+2026-10-05 04:27:59.103 [info] 
+2026-10-05 04:27:59.104 [info]   -- agents --
+2026-10-05 04:27:59.104 [info]      Search paths:
+2026-10-05 04:27:59.104 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:27:59.104 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:27:59.104 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:27:59.104 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:27:59.104 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:27:59.106 [info] 
+2026-10-05 04:27:59.106 [info]   -- skills --
+2026-10-05 04:27:59.106 [info]      Search paths:
+2026-10-05 04:27:59.106 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:27:59.106 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:27:59.106 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:27:59.106 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:27:59.106 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:27:59.107 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:27:59.111 [info]      Found 15 item(s):
+2026-10-05 04:27:59.111 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:27:59.111 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:27:59.111 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:27:59.111 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:27:59.111 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:27:59.111 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:27:59.111 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:27:59.112 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:27:59.112 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:27:59.112 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:27:59.112 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:27:59.112 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:27:59.112 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:27:59.112 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:27:59.112 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/chronicle/SKILL.md
+2026-10-05 04:27:59.112 [info] 
+2026-10-05 04:27:59.113 [info]   -- instructions --
+2026-10-05 04:27:59.113 [info]      Search paths:
+2026-10-05 04:27:59.113 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:27:59.113 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:27:59.113 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:27:59.113 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:27:59.113 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:27:59.127 [info] 
+2026-10-05 04:27:59.127 [info]   -- hooks --
+2026-10-05 04:27:59.127 [info]      Search paths:
+2026-10-05 04:27:59.127 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:27:59.127 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:27:59.130 [info] 
+2026-10-05 04:27:59.130 [info]   -- MCP Servers (0) --
+2026-10-05 04:27:59.131 [info]      (none registered)
+2026-10-05 04:27:59.131 [info] 
+2026-10-05 04:27:59.153 [info] 
+2026-10-05 04:27:59.153 [info] === Customizations Snapshot ===
+2026-10-05 04:27:59.153 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:27:59.153 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:27:59.153 [info] 
+2026-10-05 04:27:59.153 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:27:59.153 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:27:59.762 [info]   agents                0      0      2       2
+2026-10-05 04:27:59.777 [info]   skills                0      4     11      15
+2026-10-05 04:28:00.246 [info]   instructions          0      0      0       0
+2026-10-05 04:28:00.263 [info]   hooks                 0      0      0       0
+2026-10-05 04:28:00.264 [info] 
+2026-10-05 04:28:00.264 [info]   -- agents --
+2026-10-05 04:28:00.264 [info]      Search paths:
+2026-10-05 04:28:00.265 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:28:00.265 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:28:00.265 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:28:00.265 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:28:00.265 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:28:00.311 [info]      Found 2 item(s):
+2026-10-05 04:28:00.311 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md
+2026-10-05 04:28:00.311 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md
+2026-10-05 04:28:00.311 [info] 
+2026-10-05 04:28:00.311 [info]   -- skills --
+2026-10-05 04:28:00.311 [info]      Search paths:
+2026-10-05 04:28:00.311 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:28:00.311 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:28:00.311 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:28:00.311 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:28:00.311 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:28:00.311 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:28:00.366 [info]      Found 15 item(s):
+2026-10-05 04:28:00.366 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:28:00.366 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:28:00.366 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:28:00.366 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:28:00.367 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:28:00.368 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/chronicle/SKILL.md
+2026-10-05 04:28:00.368 [info] 
+2026-10-05 04:28:00.368 [info]   -- instructions --
+2026-10-05 04:28:00.368 [info]      Search paths:
+2026-10-05 04:28:00.368 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:28:00.368 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:28:00.368 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:28:00.368 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:28:00.368 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:28:00.378 [info] 
+2026-10-05 04:28:00.379 [info]   -- hooks --
+2026-10-05 04:28:00.379 [info]      Search paths:
+2026-10-05 04:28:00.379 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:28:00.379 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:28:00.384 [info] 
+2026-10-05 04:28:00.384 [info]   -- MCP Servers (1) --
+2026-10-05 04:28:00.385 [info]      GitHub [0] id=github.copilot-chat/GitHub
+2026-10-05 04:28:00.385 [info] 
+2026-10-05 04:28:00.385 [info] 
+2026-10-05 04:28:00.385 [info] === Customizations Snapshot ===
+2026-10-05 04:28:00.385 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:28:00.385 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:28:00.385 [info] 
+2026-10-05 04:28:00.385 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:28:00.385 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:28:00.392 [info]   agents                0      0      2       2
+2026-10-05 04:28:00.454 [info]   skills                0      4     11      15
+2026-10-05 04:28:00.484 [info]   instructions          0      0      0       0
+2026-10-05 04:28:00.487 [info]   hooks                 0      0      0       0
+2026-10-05 04:28:00.487 [info] 
+2026-10-05 04:28:00.488 [info]   -- agents --
+2026-10-05 04:28:00.488 [info]      Search paths:
+2026-10-05 04:28:00.488 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:28:00.488 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:28:00.488 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:28:00.488 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:28:00.488 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:28:00.505 [info]      Found 2 item(s):
+2026-10-05 04:28:00.505 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md
+2026-10-05 04:28:00.505 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md
+2026-10-05 04:28:00.505 [info] 
+2026-10-05 04:28:00.505 [info]   -- skills --
+2026-10-05 04:28:00.505 [info]      Search paths:
+2026-10-05 04:28:00.505 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:28:00.505 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:28:00.505 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:28:00.505 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:28:00.506 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:28:00.506 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:28:00.550 [info]      Found 15 item(s):
+2026-10-05 04:28:00.550 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:28:00.550 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:28:00.550 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:28:00.550 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:28:00.550 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/chronicle/SKILL.md
+2026-10-05 04:28:00.550 [info] 
+2026-10-05 04:28:00.550 [info]   -- instructions --
+2026-10-05 04:28:00.550 [info]      Search paths:
+2026-10-05 04:28:00.550 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:28:00.550 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:28:00.550 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:28:00.550 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:28:00.551 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:28:00.561 [info] 
+2026-10-05 04:28:00.561 [info]   -- hooks --
+2026-10-05 04:28:00.561 [info]      Search paths:
+2026-10-05 04:28:00.561 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:28:00.561 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:28:00.561 [info] 
+2026-10-05 04:28:00.561 [info]   -- MCP Servers (1) --
+2026-10-05 04:28:00.562 [info]      GitHub [0] id=github.copilot-chat/GitHub
+2026-10-05 04:28:00.562 [info] 
+2026-10-05 04:28:00.562 [info] 
+2026-10-05 04:28:00.562 [info] === Customizations Snapshot ===
+2026-10-05 04:28:00.562 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:28:00.562 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:28:00.562 [info] 
+2026-10-05 04:28:00.562 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:28:00.562 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:28:00.564 [info]   agents                0      0      2       2
+2026-10-05 04:28:00.566 [info]   skills                0      4     11      15
+2026-10-05 04:28:00.567 [info]   instructions          0      0      0       0
+2026-10-05 04:28:00.567 [info]   hooks                 0      0      0       0
+2026-10-05 04:28:00.567 [info] 
+2026-10-05 04:28:00.567 [info]   -- agents --
+2026-10-05 04:28:00.567 [info]      Search paths:
+2026-10-05 04:28:00.567 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:28:00.567 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:28:00.567 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:28:00.567 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:28:00.567 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:28:00.568 [info]      Found 2 item(s):
+2026-10-05 04:28:00.568 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md
+2026-10-05 04:28:00.568 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md
+2026-10-05 04:28:00.568 [info] 
+2026-10-05 04:28:00.568 [info]   -- skills --
+2026-10-05 04:28:00.568 [info]      Search paths:
+2026-10-05 04:28:00.568 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:28:00.568 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:28:00.568 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:28:00.568 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:28:00.568 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:28:00.568 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:28:00.570 [info]      Found 15 item(s):
+2026-10-05 04:28:00.570 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:28:00.570 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:28:00.570 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:28:00.570 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:28:00.570 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:28:00.570 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:28:00.570 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:28:00.570 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:28:00.570 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:28:00.570 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:28:00.570 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:28:00.570 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:28:00.570 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:28:00.571 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:28:00.571 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/chronicle/SKILL.md
+2026-10-05 04:28:00.571 [info] 
+2026-10-05 04:28:00.571 [info]   -- instructions --
+2026-10-05 04:28:00.571 [info]      Search paths:
+2026-10-05 04:28:00.571 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:28:00.571 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:28:00.571 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:28:00.571 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:28:00.571 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:28:00.572 [info] 
+2026-10-05 04:28:00.572 [info]   -- hooks --
+2026-10-05 04:28:00.572 [info]      Search paths:
+2026-10-05 04:28:00.572 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:28:00.572 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:28:00.572 [info] 
+2026-10-05 04:28:00.572 [info]   -- MCP Servers (1) --
+2026-10-05 04:28:00.572 [info]      GitHub [0] id=github.copilot-chat/GitHub
+2026-10-05 04:28:00.572 [info] 
+2026-10-05 04:30:00.062 [info] 
+2026-10-05 04:30:00.063 [info] === Customizations Snapshot ===
+2026-10-05 04:30:00.063 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:30:00.063 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:30:00.063 [info] 
+2026-10-05 04:30:00.064 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:30:00.064 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:30:00.181 [info]   agents                0      0      2       2
+2026-10-05 04:30:00.187 [info]   skills                0      4     11      15
+2026-10-05 04:30:00.190 [info]   instructions          0      0      0       0
+2026-10-05 04:30:00.191 [info]   hooks                 0      0      0       0
+2026-10-05 04:30:00.191 [info] 
+2026-10-05 04:30:00.191 [info]   -- agents --
+2026-10-05 04:30:00.191 [info]      Search paths:
+2026-10-05 04:30:00.191 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:30:00.191 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:30:00.191 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:30:00.191 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:30:00.191 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:30:00.193 [info]      Found 2 item(s):
+2026-10-05 04:30:00.193 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md
+2026-10-05 04:30:00.193 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md
+2026-10-05 04:30:00.193 [info] 
+2026-10-05 04:30:00.193 [info]   -- skills --
+2026-10-05 04:30:00.193 [info]      Search paths:
+2026-10-05 04:30:00.193 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:30:00.194 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:30:00.194 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:30:00.194 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:30:00.194 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:30:00.194 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:30:00.199 [info]      Found 15 item(s):
+2026-10-05 04:30:00.199 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:30:00.199 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:30:00.199 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:30:00.199 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:30:00.199 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:30:00.199 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:30:00.199 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:30:00.199 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:30:00.199 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:30:00.199 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:30:00.200 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:30:00.200 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:30:00.200 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:30:00.200 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:30:00.200 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/chronicle/SKILL.md
+2026-10-05 04:30:00.200 [info] 
+2026-10-05 04:30:00.200 [info]   -- instructions --
+2026-10-05 04:30:00.200 [info]      Search paths:
+2026-10-05 04:30:00.200 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:30:00.200 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:30:00.200 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:30:00.200 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:30:00.200 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:30:00.201 [info] 
+2026-10-05 04:30:00.201 [info]   -- hooks --
+2026-10-05 04:30:00.201 [info]      Search paths:
+2026-10-05 04:30:00.201 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:30:00.201 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:30:00.202 [info] 
+2026-10-05 04:30:00.202 [info]   -- MCP Servers (1) --
+2026-10-05 04:30:00.202 [info]      GitHub [0] id=github.copilot-chat/GitHub
+2026-10-05 04:30:00.202 [info] 
+2026-10-05 04:30:00.202 [info] 
+2026-10-05 04:30:00.202 [info] === Customizations Snapshot ===
+2026-10-05 04:30:00.202 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:30:00.202 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:30:00.202 [info] 
+2026-10-05 04:30:00.202 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:30:00.202 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:30:00.206 [info]   agents                0      0      2       2
+2026-10-05 04:30:00.209 [info]   skills                0      4     11      15
+2026-10-05 04:30:00.210 [info]   instructions          0      0      0       0
+2026-10-05 04:30:00.211 [info]   hooks                 0      0      0       0
+2026-10-05 04:30:00.211 [info] 
+2026-10-05 04:30:00.211 [info]   -- agents --
+2026-10-05 04:30:00.211 [info]      Search paths:
+2026-10-05 04:30:00.211 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:30:00.211 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:30:00.211 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:30:00.211 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:30:00.212 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:30:00.214 [info]      Found 2 item(s):
+2026-10-05 04:30:00.214 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md
+2026-10-05 04:30:00.215 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md
+2026-10-05 04:30:00.215 [info] 
+2026-10-05 04:30:00.215 [info]   -- skills --
+2026-10-05 04:30:00.215 [info]      Search paths:
+2026-10-05 04:30:00.215 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:30:00.215 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:30:00.215 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:30:00.215 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:30:00.215 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:30:00.215 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:30:00.218 [info]      Found 15 item(s):
+2026-10-05 04:30:00.218 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:30:00.218 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:30:00.218 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:30:00.218 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:30:00.218 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:30:00.218 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:30:00.218 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:30:00.219 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:30:00.219 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:30:00.219 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:30:00.219 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:30:00.219 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:30:00.219 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:30:00.219 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:30:00.219 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/chronicle/SKILL.md
+2026-10-05 04:30:00.219 [info] 
+2026-10-05 04:30:00.219 [info]   -- instructions --
+2026-10-05 04:30:00.220 [info]      Search paths:
+2026-10-05 04:30:00.220 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:30:00.220 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:30:00.220 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:30:00.220 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:30:00.220 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:30:00.223 [info] 
+2026-10-05 04:30:00.223 [info]   -- hooks --
+2026-10-05 04:30:00.223 [info]      Search paths:
+2026-10-05 04:30:00.223 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:30:00.223 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:30:00.223 [info] 
+2026-10-05 04:30:00.223 [info]   -- MCP Servers (1) --
+2026-10-05 04:30:00.223 [info]      GitHub [0] id=github.copilot-chat/GitHub
+2026-10-05 04:30:00.223 [info] 
+2026-10-05 04:33:56.036 [info] 
+2026-10-05 04:33:56.036 [info] === Customizations Snapshot ===
+2026-10-05 04:33:56.036 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:33:56.036 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:33:56.036 [info] 
+2026-10-05 04:33:56.036 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:33:56.036 [info]   --------          -----   ----    ---   -----
+2026-10-05 04:33:56.075 [info]   agents                0      0      2       2
+2026-10-05 04:33:56.092 [info]   skills                0      4     11      15
+2026-10-05 04:33:56.108 [info]   instructions          0      0      0       0
+2026-10-05 04:33:56.109 [info]   hooks                 0      0      0       0
+2026-10-05 04:33:56.109 [info] 
+2026-10-05 04:33:56.109 [info]   -- agents --
+2026-10-05 04:33:56.109 [info]      Search paths:
+2026-10-05 04:33:56.109 [info]        [local] /home/macke/.config/nvim/.github/agents
+2026-10-05 04:33:56.109 [info]        [local] /home/macke/.config/nvim/.claude/agents
+2026-10-05 04:33:56.109 [info]        [local] /home/macke/.copilot/agents
+2026-10-05 04:33:56.109 [info]        [local] /home/macke/.claude/agents
+2026-10-05 04:33:56.109 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:33:56.115 [info]      Found 2 item(s):
+2026-10-05 04:33:56.115 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/plan-agent/Plan.agent.md
+2026-10-05 04:33:56.115 [info]        [extension] /home/macke/.config/Code/User/globalStorage/github.copilot-chat/ask-agent/Ask.agent.md
+2026-10-05 04:33:56.116 [info] 
+2026-10-05 04:33:56.116 [info]   -- skills --
+2026-10-05 04:33:56.116 [info]      Search paths:
+2026-10-05 04:33:56.116 [info]        [local] /home/macke/.config/nvim/.agents/skills
+2026-10-05 04:33:56.116 [info]        [local] /home/macke/.config/nvim/.github/skills
+2026-10-05 04:33:56.117 [info]        [local] /home/macke/.config/nvim/.claude/skills
+2026-10-05 04:33:56.117 [info]        [user] /home/macke/.agents/skills
+2026-10-05 04:33:56.117 [info]        [user] /home/macke/.copilot/skills
+2026-10-05 04:33:56.117 [info]        [user] /home/macke/.claude/skills
+2026-10-05 04:33:56.125 [info]      Found 15 item(s):
+2026-10-05 04:33:56.125 [info]        [user] /home/macke/.agents/skills/diagnose-crash/SKILL.md
+2026-10-05 04:33:56.125 [info]        [user] /home/macke/.agents/skills/omarchy/SKILL.md
+2026-10-05 04:33:56.126 [info]        [user] /home/macke/.claude/skills/diagnose-crash/SKILL.md
+2026-10-05 04:33:56.126 [info]        [user] /home/macke/.claude/skills/omarchy/SKILL.md
+2026-10-05 04:33:56.126 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/project-setup-info-local/SKILL.md
+2026-10-05 04:33:56.126 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/get-search-view-results/SKILL.md
+2026-10-05 04:33:56.126 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/troubleshoot/SKILL.md
+2026-10-05 04:33:56.126 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/agent-customization/SKILL.md
+2026-10-05 04:33:56.127 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/init/SKILL.md
+2026-10-05 04:33:56.127 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-prompt/SKILL.md
+2026-10-05 04:33:56.127 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-instructions/SKILL.md
+2026-10-05 04:33:56.127 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-skill/SKILL.md
+2026-10-05 04:33:56.127 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-agent/SKILL.md
+2026-10-05 04:33:56.127 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/create-hook/SKILL.md
+2026-10-05 04:33:56.128 [info]        [extension] /usr/share/code/resources/app/extensions/copilot/assets/prompts/skills/chronicle/SKILL.md
+2026-10-05 04:33:56.128 [info] 
+2026-10-05 04:33:56.128 [info]   -- instructions --
+2026-10-05 04:33:56.128 [info]      Search paths:
+2026-10-05 04:33:56.128 [info]        [local] /home/macke/.config/nvim/.github/instructions
+2026-10-05 04:33:56.129 [info]        [local] /home/macke/.config/nvim/.claude/rules
+2026-10-05 04:33:56.129 [info]        [local] /home/macke/.copilot/instructions
+2026-10-05 04:33:56.129 [info]        [local] /home/macke/.claude/rules
+2026-10-05 04:33:56.129 [info]        [user] /home/macke/.config/Code/User/prompts
+2026-10-05 04:33:56.132 [info] 
+2026-10-05 04:33:56.132 [info]   -- hooks --
+2026-10-05 04:33:56.132 [info]      Search paths:
+2026-10-05 04:33:56.132 [info]        [local] /home/macke/.config/nvim/.github/hooks
+2026-10-05 04:33:56.132 [info]        [user] /home/macke/.copilot/hooks
+2026-10-05 04:33:56.133 [info] 
+2026-10-05 04:33:56.133 [info]   -- MCP Servers (1) --
+2026-10-05 04:33:56.133 [info]      GitHub [0] id=github.copilot-chat/GitHub
+2026-10-05 04:33:56.133 [info] 
+2026-10-05 04:34:01.206 [info] 
+2026-10-05 04:34:01.206 [info] === Customizations Snapshot ===
+2026-10-05 04:34:01.206 [info]   Root: /home/macke/.config/nvim
+2026-10-05 04:34:01.214 [info]   Sections: plugins, mcpServers, skills, instructions, agents, hooks, tools, automations, harnessSettings
+2026-10-05 04:34:01.214 [info] 
+2026-10-05 04:34:01.214 [info]   Section           Local   User    Ext   Total
+2026-10-05 04:34:01.215 [info]   --------          -----   ----    ---   -----

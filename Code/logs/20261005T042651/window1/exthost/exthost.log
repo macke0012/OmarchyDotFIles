@@ -1,0 +1,20 @@
+2026-10-05 04:26:52.281 [info] Extension host with pid 40166 started
+2026-10-05 04:26:52.281 [info] Skipping acquiring lock for /home/macke/.config/Code/User/workspaceStorage/0a48ce1321087723d267fe9ae469a348.
+2026-10-05 04:26:52.308 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-05 04:26:52.320 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-05 04:26:52.429 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-10-05 04:26:52.434 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-05 04:26:52.452 [info] Eager extensions activated
+2026-10-05 04:26:52.453 [info] [node-compile-cache] extension-host: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/extension-host, active: none)
+2026-10-05 04:26:52.453 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-05 04:26:52.454 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-05 04:27:24.578 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-10-05 04:27:24.633 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-10-05 04:27:36.372 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-05 04:27:36.379 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-05 04:27:36.426 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-10-05 04:27:51.250 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-10-05 04:27:51.694 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-10-05 04:28:24.808 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-10-05 04:34:57.247 [info] Extension host terminating: received terminate message from renderer
+2026-10-05 04:34:57.302 [info] Extension host with pid 40166 exiting with code 0
